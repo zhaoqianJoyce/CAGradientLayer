@@ -13,6 +13,7 @@
 		E90AADBB207327DD00C008D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90AADB9207327DD00C008D0 /* Main.storyboard */; };
 		E90AADBD207327DD00C008D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90AADBC207327DD00C008D0 /* Assets.xcassets */; };
 		E90AADC0207327DD00C008D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90AADBE207327DD00C008D0 /* LaunchScreen.storyboard */; };
+		E90AADCC2073622900C008D0 /* fadeStringView.m in Sources */ = {isa = PBXBuildFile; fileRef = E90AADCB2073622900C008D0 /* fadeStringView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E90AADBC207327DD00C008D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90AADBF207327DD00C008D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90AADC1207327DD00C008D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90AADCA2073622900C008D0 /* fadeStringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fadeStringView.h; sourceTree = "<group>"; };
+		E90AADCB2073622900C008D0 /* fadeStringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fadeStringView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				E90AADB4207327DD00C008D0 /* AppDelegate.m */,
 				E90AADB6207327DD00C008D0 /* ViewController.h */,
 				E90AADB7207327DD00C008D0 /* ViewController.m */,
+				E90AADCA2073622900C008D0 /* fadeStringView.h */,
+				E90AADCB2073622900C008D0 /* fadeStringView.m */,
 				E90AADB9207327DD00C008D0 /* Main.storyboard */,
 				E90AADBC207327DD00C008D0 /* Assets.xcassets */,
 				E90AADBE207327DD00C008D0 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E90AADB8207327DD00C008D0 /* ViewController.m in Sources */,
+				E90AADCC2073622900C008D0 /* fadeStringView.m in Sources */,
 				E90AADB5207327DD00C008D0 /* AppDelegate.m in Sources */,
 				E90AADB2207327DD00C008D0 /* main.m in Sources */,
 			);
@@ -298,6 +304,7 @@
 				E90AADC6207327DD00C008D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

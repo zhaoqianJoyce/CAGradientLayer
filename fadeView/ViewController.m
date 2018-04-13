@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "fadeStringView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    fadeStringView *fadeString = [[fadeStringView alloc] initWithFrame:CGRectMake(0, 0, 400, 400)];
+    fadeString.center = self.view.center;
+    fadeString.text = @"设计文本横向渐变消失控件";
+    [self.view addSubview:fadeString];
+    
+    [fadeString fadeRightWithDuration:3.0f animated:YES];
+    
 }
 
 @end
